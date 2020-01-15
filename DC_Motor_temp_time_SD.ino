@@ -55,7 +55,7 @@ void loop() {
   Serial.print(dt.second); Serial.println("");
   Serial.print("Temp = ");
   Serial.println(tempC);
-  spd = tempC*7; //ADJUST!!
+  spd = tempC*7; //ADJUST to needs!!
   if (spd >= 255){
     spd=255; //MAX=255
   }
